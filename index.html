@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <script
+      src="https://kit.fontawesome.com/960d755aed.js"
+      crossorigin="anonymous"
+    ></script> -->
+
+    <!-- font font-awesome cdn  start -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font font-awesone cden end  -->
+
+    <!-- custon stylesheet start -->
+    <link rel="stylesheet" href="index.css" />
+    <!-- custon stylesheet end -->
+
+    <!-- sweet alert start  -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- sweet alert end  -->
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>REGISTRATION FORM</h2>
+      </div>
+      <form class="form" id="form" action="">
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            name=""
+            id="username"
+            placeholder="Enter your fullname"
+            autocomplete="off"
+          />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small id="usererror">Error Msg</small>
+        </div>
+
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name=""
+            id="email"
+            placeholder="Enter your email"
+            autocomplete="off"
+          />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>Error Msg</small>
+        </div>
+
+        <div class="form-control">
+          <label for="number">Phone Number</label>
+          <input
+            type="text"
+            name=""
+            id="number"
+            placeholder="Enter your number"
+            autocomplete="off"
+          />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>Error Msg</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name=""
+            if
+            id="password"
+            placeholder="Enter your password"
+            autocomplete="off"
+          />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>Error Msg</small>
+        </div>
+
+        <div class="form-control">
+          <label for="cpassword">Confirm Password</label>
+          <input
+            type="password"
+            name=""
+            id="cpassword"
+            placeholder="Enter your password again"
+          />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>Error Msg</small>
+        </div>
+        <!-- <input type="button" value="Submit" class="btn" /> -->
+
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
